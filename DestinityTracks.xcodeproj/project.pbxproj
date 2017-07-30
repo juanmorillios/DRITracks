@@ -22,6 +22,7 @@
 		872413F41F2CDC6E009D0B05 /* Track3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F31F2CDC6E009D0B05 /* Track3.mp3 */; };
 		872413F61F2CDC9A009D0B05 /* Track5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F51F2CDC9A009D0B05 /* Track5.mp3 */; };
 		872413F81F2CDCBF009D0B05 /* Track4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F71F2CDCBF009D0B05 /* Track4.mp3 */; };
+		8724140A1F2E8396009D0B05 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872414091F2E8396009D0B05 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		872413F31F2CDC6E009D0B05 /* Track3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track3.mp3; sourceTree = "<group>"; };
 		872413F51F2CDC9A009D0B05 /* Track5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track5.mp3; sourceTree = "<group>"; };
 		872413F71F2CDCBF009D0B05 /* Track4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track4.mp3; sourceTree = "<group>"; };
+		872414091F2E8396009D0B05 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		872413DE1F2BE712009D0B05 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				872414091F2E8396009D0B05 /* Track.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			files = (
 				872413CF1F2BE69E009D0B05 /* ViewController.swift in Sources */,
 				872413CD1F2BE69E009D0B05 /* AppDelegate.swift in Sources */,
+				8724140A1F2E8396009D0B05 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

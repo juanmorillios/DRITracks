@@ -10,8 +10,8 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
-  
   var audioPlayer : AVAudioPlayer?
+  
   let tracksArray = ["Track1","Track2","Track3","Track4",
                      "Track5","Track6","Track7","Track8"]
   
