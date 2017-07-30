@@ -12,6 +12,16 @@
 		872413D21F2BE69E009D0B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872413D01F2BE69E009D0B05 /* Main.storyboard */; };
 		872413D41F2BE69E009D0B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872413D31F2BE69E009D0B05 /* Assets.xcassets */; };
 		872413D71F2BE69E009D0B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872413D51F2BE69E009D0B05 /* LaunchScreen.storyboard */; };
+		872413E61F2BF93F009D0B05 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872413E41F2BF93F009D0B05 /* Fabric.framework */; };
+		872413E71F2BF93F009D0B05 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872413E51F2BF93F009D0B05 /* Crashlytics.framework */; };
+		872413EA1F2CDBEB009D0B05 /* Track1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413E91F2CDBEB009D0B05 /* Track1.mp3 */; };
+		872413EC1F2CDC04009D0B05 /* Track8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413EB1F2CDC04009D0B05 /* Track8.mp3 */; };
+		872413EE1F2CDC19009D0B05 /* Track6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413ED1F2CDC19009D0B05 /* Track6.mp3 */; };
+		872413F01F2CDC33009D0B05 /* Track2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413EF1F2CDC33009D0B05 /* Track2.mp3 */; };
+		872413F21F2CDC46009D0B05 /* Track7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F11F2CDC46009D0B05 /* Track7.mp3 */; };
+		872413F41F2CDC6E009D0B05 /* Track3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F31F2CDC6E009D0B05 /* Track3.mp3 */; };
+		872413F61F2CDC9A009D0B05 /* Track5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F51F2CDC9A009D0B05 /* Track5.mp3 */; };
+		872413F81F2CDCBF009D0B05 /* Track4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 872413F71F2CDCBF009D0B05 /* Track4.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		872413D31F2BE69E009D0B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		872413D61F2BE69E009D0B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872413D81F2BE69E009D0B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872413E41F2BF93F009D0B05 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		872413E51F2BF93F009D0B05 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		872413E91F2CDBEB009D0B05 /* Track1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track1.mp3; sourceTree = "<group>"; };
+		872413EB1F2CDC04009D0B05 /* Track8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track8.mp3; sourceTree = "<group>"; };
+		872413ED1F2CDC19009D0B05 /* Track6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track6.mp3; sourceTree = "<group>"; };
+		872413EF1F2CDC33009D0B05 /* Track2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track2.mp3; sourceTree = "<group>"; };
+		872413F11F2CDC46009D0B05 /* Track7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track7.mp3; sourceTree = "<group>"; };
+		872413F31F2CDC6E009D0B05 /* Track3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track3.mp3; sourceTree = "<group>"; };
+		872413F51F2CDC9A009D0B05 /* Track5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track5.mp3; sourceTree = "<group>"; };
+		872413F71F2CDCBF009D0B05 /* Track4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Track4.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872413E71F2BF93F009D0B05 /* Crashlytics.framework in Frameworks */,
+				872413E61F2BF93F009D0B05 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				872413CB1F2BE69E009D0B05 /* DestinityTracks */,
 				872413CA1F2BE69E009D0B05 /* Products */,
+				872413E41F2BF93F009D0B05 /* Fabric.framework */,
+				872413E51F2BF93F009D0B05 /* Crashlytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,70 @@
 		872413CB1F2BE69E009D0B05 /* DestinityTracks */ = {
 			isa = PBXGroup;
 			children = (
-				872413CC1F2BE69E009D0B05 /* AppDelegate.swift */,
-				872413CE1F2BE69E009D0B05 /* ViewController.swift */,
-				872413D01F2BE69E009D0B05 /* Main.storyboard */,
+				872413DE1F2BE712009D0B05 /* Model */,
+				872413DF1F2BE71C009D0B05 /* View */,
+				872413E01F2BE722009D0B05 /* Controller */,
+				872413E21F2BE736009D0B05 /* Utils */,
+				872413E11F2BE72B009D0B05 /* Soporting Files */,
 				872413D31F2BE69E009D0B05 /* Assets.xcassets */,
-				872413D51F2BE69E009D0B05 /* LaunchScreen.storyboard */,
-				872413D81F2BE69E009D0B05 /* Info.plist */,
 			);
 			path = DestinityTracks;
+			sourceTree = "<group>";
+		};
+		872413DE1F2BE712009D0B05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		872413DF1F2BE71C009D0B05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				872413D01F2BE69E009D0B05 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		872413E01F2BE722009D0B05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				872413CE1F2BE69E009D0B05 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		872413E11F2BE72B009D0B05 /* Soporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872413E81F2CDBD1009D0B05 /* Tracks */,
+				872413CC1F2BE69E009D0B05 /* AppDelegate.swift */,
+				872413D81F2BE69E009D0B05 /* Info.plist */,
+				872413D51F2BE69E009D0B05 /* LaunchScreen.storyboard */,
+			);
+			name = "Soporting Files";
+			sourceTree = "<group>";
+		};
+		872413E21F2BE736009D0B05 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		872413E81F2CDBD1009D0B05 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				872413E91F2CDBEB009D0B05 /* Track1.mp3 */,
+				872413EF1F2CDC33009D0B05 /* Track2.mp3 */,
+				872413F31F2CDC6E009D0B05 /* Track3.mp3 */,
+				872413F71F2CDCBF009D0B05 /* Track4.mp3 */,
+				872413F51F2CDC9A009D0B05 /* Track5.mp3 */,
+				872413ED1F2CDC19009D0B05 /* Track6.mp3 */,
+				872413F11F2CDC46009D0B05 /* Track7.mp3 */,
+				872413EB1F2CDC04009D0B05 /* Track8.mp3 */,
+			);
+			name = Tracks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +154,7 @@
 				872413C51F2BE69E009D0B05 /* Sources */,
 				872413C61F2BE69E009D0B05 /* Frameworks */,
 				872413C71F2BE69E009D0B05 /* Resources */,
+				872413E31F2BF91B009D0B05 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,13 +205,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872413F01F2CDC33009D0B05 /* Track2.mp3 in Resources */,
+				872413EE1F2CDC19009D0B05 /* Track6.mp3 in Resources */,
+				872413F81F2CDCBF009D0B05 /* Track4.mp3 in Resources */,
+				872413F61F2CDC9A009D0B05 /* Track5.mp3 in Resources */,
+				872413F41F2CDC6E009D0B05 /* Track3.mp3 in Resources */,
 				872413D71F2BE69E009D0B05 /* LaunchScreen.storyboard in Resources */,
 				872413D41F2BE69E009D0B05 /* Assets.xcassets in Resources */,
+				872413EA1F2CDBEB009D0B05 /* Track1.mp3 in Resources */,
+				872413F21F2CDC46009D0B05 /* Track7.mp3 in Resources */,
 				872413D21F2BE69E009D0B05 /* Main.storyboard in Resources */,
+				872413EC1F2CDC04009D0B05 /* Track8.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		872413E31F2BF91B009D0B05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 6da29119db8582237080a48787c708350eb37762 7994f8b0501c3799f519bf3c5921f9b7047a89b0c21ce1572f0339d0ee51c2f6";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		872413C51F2BE69E009D0B05 /* Sources */ = {
@@ -262,6 +367,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DestinityTracks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.DestinityTracks;
@@ -275,6 +384,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DestinityTracks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.DestinityTracks;
@@ -302,6 +415,7 @@
 				872413DD1F2BE69E009D0B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
