@@ -251,11 +251,36 @@
                         </subviews>
                         <color key="backgroundColor" red="0.74117647060000003" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Destiny - Rise of Iron" id="hzp-tw-y0Q"/>
+                    <navigationItem key="navigationItem" title="Destiny - Rise of Iron" id="hzp-tw-y0Q">
+                        <barButtonItem key="leftBarButtonItem" title="i" id="d0e-3t-7zf">
+                            <color key="tintColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="t8v-oz-5vB" kind="show" id="i5V-V4-roi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="781.60000000000002" y="-626.53673163418296"/>
+        </scene>
+        <!--Informatión-->
+        <scene sceneID="rzG-aL-Fdj">
+            <objects>
+                <viewController title="Informatión" id="t8v-oz-5vB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4iU-BH-3hS"/>
+                        <viewControllerLayoutGuide type="bottom" id="bcp-G3-V33"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="60Z-vd-FEK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.74117647060000003" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l84-wm-76A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1458" y="-627"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gYT-5T-dfk">
