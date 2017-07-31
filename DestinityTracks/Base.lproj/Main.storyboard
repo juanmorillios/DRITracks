@@ -21,35 +21,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="14050507988_d6f0f5a1dc_b" translatesAutoresizingMaskIntoConstraints="NO" id="nGz-i8-mJE" userLabel="imagen1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Siva swarm" translatesAutoresizingMaskIntoConstraints="NO" id="nGz-i8-mJE" userLabel="imagen1">
                                 <rect key="frame" x="16" y="71" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15812862935_13a51920ce_b" translatesAutoresizingMaskIntoConstraints="NO" id="sVj-Xy-4Gz" userLabel="imagen2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Efrideet" translatesAutoresizingMaskIntoConstraints="NO" id="sVj-Xy-4Gz" userLabel="imagen2">
                                 <rect key="frame" x="204" y="71" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="28730395116_e553585b9e_b" translatesAutoresizingMaskIntoConstraints="NO" id="RvK-a4-JkY" userLabel="imagen3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brave of the storm" translatesAutoresizingMaskIntoConstraints="NO" id="RvK-a4-JkY" userLabel="imagen3">
                                 <rect key="frame" x="16" y="200" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="31423349865_ba2f6d103e_b" translatesAutoresizingMaskIntoConstraints="NO" id="yN7-iN-dsh" userLabel="imagen4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Elegy" translatesAutoresizingMaskIntoConstraints="NO" id="yN7-iN-dsh" userLabel="imagen4">
                                 <rect key="frame" x="204" y="200" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="32439640620_26ea4d62f1_b" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-ME-Sln" userLabel="imagen5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iron Tomb" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-ME-Sln" userLabel="imagen5">
                                 <rect key="frame" x="16" y="329" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15812862935_13a51920ce_b" translatesAutoresizingMaskIntoConstraints="NO" id="gQG-Wa-tfR" userLabel="imagen6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shadow of the Walker" translatesAutoresizingMaskIntoConstraints="NO" id="gQG-Wa-tfR" userLabel="imagen6">
                                 <rect key="frame" x="204" y="329" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9dgpepm2" translatesAutoresizingMaskIntoConstraints="NO" id="wm6-Ho-enP" userLabel="imagen7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ad Victoriam" translatesAutoresizingMaskIntoConstraints="NO" id="wm6-Ho-enP" userLabel="imagen7">
                                 <rect key="frame" x="16" y="458" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="28730395116_e553585b9e_b" translatesAutoresizingMaskIntoConstraints="NO" id="t29-aT-im0" userLabel="imagne8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eye Up" translatesAutoresizingMaskIntoConstraints="NO" id="t29-aT-im0" userLabel="imagne8">
                                 <rect key="frame" x="204" y="458" width="155" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -312,7 +312,7 @@ Is a basic app, but only I want to practice with Framework of Apple AVFoundation
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GTG-67-0a0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="Liu-1E-g74">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Liu-1E-g74">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.74117647060000003" green="0.61176470589999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -333,12 +333,15 @@ Is a basic app, but only I want to practice with Framework of Apple AVFoundation
         </scene>
     </scenes>
     <resources>
-        <image name="14050507988_d6f0f5a1dc_b" width="512" height="288"/>
-        <image name="15812862935_13a51920ce_b" width="512" height="288"/>
-        <image name="28730395116_e553585b9e_b" width="500" height="254"/>
-        <image name="31423349865_ba2f6d103e_b" width="512" height="288"/>
-        <image name="32439640620_26ea4d62f1_b" width="512" height="288"/>
         <image name="9dgpepm2" width="585" height="360"/>
+        <image name="Ad Victoriam" width="640" height="360"/>
+        <image name="Brave of the storm" width="960" height="540"/>
+        <image name="Efrideet" width="470" height="272"/>
+        <image name="Elegy" width="309" height="171"/>
+        <image name="Eye Up" width="500" height="254"/>
+        <image name="Iron Tomb" width="250" height="140"/>
+        <image name="Shadow of the Walker" width="512" height="290"/>
+        <image name="Siva swarm" width="346" height="194"/>
         <image name="SoundOff" width="30" height="22"/>
         <image name="SoundOn" width="30" height="26"/>
         <image name="info" width="30" height="31"/>

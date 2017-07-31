@@ -102,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				872413D01F2BE69E009D0B05 /* Main.storyboard */,
+				872413D51F2BE69E009D0B05 /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -110,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				872413CE1F2BE69E009D0B05 /* ViewController.swift */,
+				872413CC1F2BE69E009D0B05 /* AppDelegate.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -118,9 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				872413E81F2CDBD1009D0B05 /* Tracks */,
-				872413CC1F2BE69E009D0B05 /* AppDelegate.swift */,
 				872413D81F2BE69E009D0B05 /* Info.plist */,
-				872413D51F2BE69E009D0B05 /* LaunchScreen.storyboard */,
 			);
 			name = "Soporting Files";
 			sourceTree = "<group>";
