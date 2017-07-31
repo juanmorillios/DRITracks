@@ -11,6 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
   var audioPlayer : AVAudioPlayer?
+  var randomTracks : Int = 0
   
   let tracksArray = ["Track1","Track2","Track3","Track4",
                      "Track5","Track6","Track7","Track8"]
@@ -25,6 +26,28 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
   
   @IBAction func buttonStopPlayingPressed(_ sender: UIButton) {
     audioPlayer?.stop()
+  }
+  
+  override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    
+    shakeAudioPlay()
+    
+  }
+  
+  func shakeAudioPlay() {
+    randomTracks = Int(arc4random_uniform(8))
+    let randomTracksFinal = tracksArray[randomTracks]
+    
+    let trackURL = Bundle.main.url(forResource: randomTracksFinal, withExtension: "mp3")
+    do {
+      audioPlayer = try AVAudioPlayer(contentsOf: trackURL!)
+      guard let audioPlayer = audioPlayer else { return }
+      audioPlayer.prepareToPlay()
+      audioPlayer.numberOfLoops = 1
+      audioPlayer.play()
+    } catch let error as NSError {
+      print(error.description)
+    }
   }
   
   @IBAction func sliderVolumeTracks(_ sender: UISlider) {
